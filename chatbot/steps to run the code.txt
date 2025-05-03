@@ -1,0 +1,22 @@
+Open the Code in VS Code 
+--Open the app.py Code in VS Code
+
+Add Your OpenAI API Key
+--Go to line 10 in the code and replace the placeholder with your actual OpenAI API key:
+
+Run the App from the Terminal
+--In the VS Code terminal, run either of the following commands:
+--streamlit run app.py
+--python -m streamlit run app.py
+
+Upload a PDF File
+--After the app opens in your browser, upload the PDF file you want to chat with.
+
+Wait for the Processing
+--The app will read the PDF and generate embeddings. This might take a few seconds.
+
+Ask a Question
+--In the input box labeled "Ask a question about the uploaded PDFs:", type your question and press Enter.
+
+View the Answer
+--If the answer exists in the uploaded PDF, it will be shown.
